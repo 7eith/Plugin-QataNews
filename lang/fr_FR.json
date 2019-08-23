@@ -1,0 +1,16 @@
+{
+    "NEWSLETTER__LAYOUT_TITLE": "NewsLetter",
+    "NEWSLETTER__ADMIN_TITLE": "NewsLetter",
+    "NEWSLETTER__ADMIN_SUBSCRIBE_USER_COUNT": "utilisateurs sont inscrit a la newsletter",
+    "NEWSLETTER__ADMIN_EXPORT": "Exporter la mailing-list",
+
+    "NEWSLETTER__PROFILE_TITLE": "NewsLetter",
+    "NEWSLETTER__PROFIL_ABOUT": "Qu'est-ce que c'est la NewsLetter ?",
+    "NEWSLETTER__PROFIL_ABOUT_EXPLAIN": "La NewsLetter vous permez de rester informé des nouveautés du serveur !",
+
+    "NEWSLETTER__POPUP_TITLE": "NewsLetter",
+    "NEWSLETTER__POPUP_ABOUT": "Qu'est-ce que c'est la NewsLetter ?",
+    "NEWSLETTER__POPUP_ABOUT_EXPLAIN": "La NewsLetter vous permez de rester informé des nouveautés du serveur !",
+
+    "NEWSLETTER__AUTHOR": "Snkh <iamsnkh@pm.me>"
+}
