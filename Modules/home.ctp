@@ -7,7 +7,7 @@
 /*   Author: Snkh <inquiries@snkh.me>                                   */
 /*                                                                      */
 /*   Created: 23/08/2019 21:30:44 by Snkh                               */
-/*   Updated: 23/08/2019 22:47:43 by Snkh                               */
+/*   Updated: 30/08/2019 18:05:25 by Snkh                               */
 /*                                                                      */
 /*   Snkh Inc. (c) 2019 - GPL 3.0                                       */
 /*                                                                      */
@@ -33,11 +33,11 @@ if($user && is_null($user['newsletter']))
                             <small><?= $Lang->get('NEWSLETTER__POPUP_ABOUT_EXPLAIN') ?></small>
                             
                             <div class="radio" style="padding-left: 50px;">
-                                <input type="radio" name="newsletter-value" value="true">
+                                <input type="radio" name="newsletter-value" value="1">
                                 <label><?= $Lang->get('GLOBAL__ENABLE') ?></label>
                             </div>
                             <div class="radio" style="padding-left: 50px;">
-                                <input type="radio" name="newsletter-value" value="false">
+                                <input type="radio" name="newsletter-value" value="2">
                                 <label><?= $Lang->get('GLOBAL__DISABLE') ?></label>
                             </div>
                         </div>

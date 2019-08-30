@@ -7,7 +7,7 @@
 /*   Author: Snkh <inquiries@snkh.me>                                   */
 /*                                                                      */
 /*   Created: 23/08/2019 14:47:37 by Snkh                               */
-/*   Updated: 23/08/2019 17:42:18 by Snkh                               */
+/*   Updated: 30/08/2019 18:54:51 by Snkh                               */
 /*                                                                      */
 /*   Snkh Inc. (c) 2019 - GPL 3.0                                       */
 /*                                                                      */
@@ -29,11 +29,11 @@
                 <small><?= $Lang->get('NEWSLETTER__PROFIL_ABOUT_EXPLAIN') ?></small>
                 
                 <div class="radio" style="padding-left: 50px;">
-                    <input type="radio" name="newsletter-value" value="true" <?= ($user['newsletter'] == true) ? 'checked=""' : 'checked' ?>>
+                    <input type="radio" name="newsletter-value" value="1" <?= ($user['newsletter'] == 1) ? 'checked=""' : 'checked' ?>>
                     <label><?= $Lang->get('GLOBAL__ENABLE') ?></label>
                 </div>
                 <div class="radio" style="padding-left: 50px;">
-                    <input type="radio" name="newsletter-value" value="false" <?= ($user['newsletter'] == false) ? 'checked=""': '' ?>>
+                    <input type="radio" name="newsletter-value" value="2" <?= ($user['newsletter'] == 2) ? 'checked=""': '' ?>>
                     <label><?= $Lang->get('GLOBAL__DISABLE') ?></label>
                 </div>
             </div>
