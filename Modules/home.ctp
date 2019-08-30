@@ -7,7 +7,7 @@
 /*   Author: Snkh <inquiries@snkh.me>                                   */
 /*                                                                      */
 /*   Created: 23/08/2019 21:30:44 by Snkh                               */
-/*   Updated: 30/08/2019 19:18:54 by Snkh                               */
+/*   Updated: 31/08/2019 00:15:08 by Snkh                               */
 /*                                                                      */
 /*   Snkh Inc. (c) 2019 - GPL 3.0                                       */
 /*                                                                      */
@@ -42,7 +42,7 @@ if($user && $user['newsletter'] == 0)
                             </div>
                         </div>
                         <div class="text-right">
-                            <button type="submit" class="btn btn-primary btn-large"><?= $Lang->get("GLOBAL__SUBMIT") ?></button>
+                            <button type="submit" class="btn btn-primary btn-large" data-dismiss="modal"><?= $Lang->get("GLOBAL__SUBMIT") ?></button>
                         </div>
                     </form>
                 </div>
@@ -52,6 +52,9 @@ if($user && $user['newsletter'] == 0)
     <script>
         $(function(){
             $('#newsletter_modal').modal("show");
+            $('#newsletter_modal').on('click', () => {
+                $('#newsletter_modal').modal("close")
+            });
         });
     </script>
 <?php
