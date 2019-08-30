@@ -7,13 +7,13 @@
 /*   Author: Snkh <inquiries@snkh.me>                                   */
 /*                                                                      */
 /*   Created: 23/08/2019 21:30:44 by Snkh                               */
-/*   Updated: 30/08/2019 18:05:25 by Snkh                               */
+/*   Updated: 30/08/2019 19:18:54 by Snkh                               */
 /*                                                                      */
 /*   Snkh Inc. (c) 2019 - GPL 3.0                                       */
 /*                                                                      */
 /* ******************************************************************** */
 
-if($user && is_null($user['newsletter']))
+if($user && $user['newsletter'] == 0)
 {
 ?>
     <div class="modal fade" id="newsletter_modal">
@@ -24,7 +24,7 @@ if($user && is_null($user['newsletter']))
                     <h4 class="modal-title" id="newsletter_modal_title"><?= $Lang->get('NEWSLETTER__POPUP_TITLE') ?></h4>
                 </div>
                 <div class="modal-body" id="newsletter_modal_content">
-                    <form method="post" data-ajax="true" action="<?= $this->Html->url(array('controller' => 'newsletter', 'action' => 'user_subscribe')) ?>">
+                    <form method="post" data-ajax="true" action="<?= $this->Html->url(array('controller' => 'qatanews', 'action' => 'user_subscribe')) ?>">
                         <div class="form-group" style="padding-left: 20px;">
                             <label><?= $Lang->get('NEWSLETTER__POPUP_ABOUT') ?></label>
 
