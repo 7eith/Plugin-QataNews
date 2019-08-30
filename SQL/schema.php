@@ -6,13 +6,13 @@
 /*   Author: Snkh <inquiries@snkh.me>                                   */
 /*                                                                      */
 /*   Created: 23/08/2019 14:51:02 by Snkh                               */
-/*   Updated: 23/08/2019 21:24:08 by Snkh                               */
+/*   Updated: 30/08/2019 17:50:18 by Snkh                               */
 /*                                                                      */
 /*   Snkh Inc. (c) 2019 - GPL 3.0                                       */
 /*                                                                      */
 /* ******************************************************************** */
 
-class NewsletterAppSchema extends CakeSchema {
+class QataNewsAppSchema extends CakeSchema {
 
     public $file = 'schema.php';
 

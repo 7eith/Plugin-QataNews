@@ -2,18 +2,18 @@
 
 /* ******************************************************************** */
 /*                                                                      */
-/*   [Controller] NewsletterController.php                              */
+/*   [Controller] QataNewsController.php                              */
 /*                                                                      */
 /*   Author: Snkh <inquiries@snkh.me>                                   */
 /*                                                                      */
 /*   Created: 23/08/2019 14:56:22 by Snkh                               */
-/*   Updated: 23/08/2019 22:39:07 by Snkh                               */
+/*   Updated: 30/08/2019 17:51:44 by Snkh                               */
 /*                                                                      */
 /*   Snkh Inc. (c) 2019 - GPL 3.0                                       */
 /*                                                                      */
 /* ******************************************************************** */
 
-class NewsletterController extends AppController {
+class QataNewsController extends AppController {
 
     public function user_subscribe()
     {
