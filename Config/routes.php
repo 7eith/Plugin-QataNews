@@ -13,7 +13,7 @@
 /*                                                                      */
 /* ******************************************************************** */
 
-Router::connect('/qatanews/user_subscribe',               array('controller' => 'QataNews', 'action' => 'user_subscribe',  'plugin' => 'QataNews'));
+Router::connect('/qatanews/qatanews/user_subscribe',    array('controller' => 'QataNews', 'action' => 'user_subscribe',  'plugin' => 'QataNews'));
 
-Router::connect('/admin/qatanews/export',                 array('controller' => 'QataNews', 'action' => 'export',  'plugin' => 'QataNews'));
-Router::connect('/admin/qatanews/subscribe_everyone',     array('controller' => 'QataNews', 'action' => 'forceEveryoneSubscribe',  'plugin' => 'QataNews'));
+Router::connect('/admin/qatanews/export',               array('controller' => 'QataNews', 'action' => 'export',  'plugin' => 'QataNews'));
+Router::connect('/admin/qatanews/subscribe_everyone',   array('controller' => 'QataNews', 'action' => 'forceEveryoneSubscribe',  'plugin' => 'QataNews'));
